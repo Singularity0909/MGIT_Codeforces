@@ -9,24 +9,9 @@
 // import * as d3 from 'd3';
 // require("./stylesheet.css");
 
-$("#inputfile").change(function() {
-  $("#inputfile").attr("hidden", true);
-  var r = new FileReader();
-  r.readAsText(this.files[0], config.encoding);
-  r.onload = function() {
-    //读取完成后，数据保存在对象的result属性中
-    var data = d3.csvParse(this.result);
-    try {
-      draw(data);
-    } catch (error) {
-      alert(error);
-    }
-  };
-});
-
 init = function() {
     var xhr = new XMLHttpRequest();
-    xhr.open("get", "data.csv", true);
+    xhr.open("get", "data/data.csv", true);
     xhr.send();
     xhr.onreadystatechange = function() {
         if (xhr.readyState == 4 && xhr.status == 200) {

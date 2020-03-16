@@ -11,7 +11,6 @@ def getDay(x):
     xTime = datetime.datetime(int(xTime[0]), int(xTime[1]), int(xTime[2]))
     return (xTime - STARTTIME).days
 
-
 NOW = getDay(time.time())
 
 with open("handles.json", "r") as handlesjson:
@@ -33,12 +32,12 @@ for i in handles:
     old = 0
     data.setdefault(i, [])
     for j in userdata:
-        now = getDay(j["ratingUpdateTimeSeconds"])
-        if now >= 0:
+        new = getDay(j["ratingUpdateTimeSeconds"])
+        if new >= 0:
             rating = j["oldRating"]
-            for k in range(old, now):
+            for k in range(old, new):
                 data[i].append(rating)
-            old = now
+            old = new
     rating = userdata[-1]["newRating"]
     for k in range(old, NOW + 1):
         data[i].append(rating)
