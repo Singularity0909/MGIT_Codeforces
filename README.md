@@ -17,20 +17,20 @@ D3 作为一个强大的数据可视化函数库效果拔群，衍生出了许�
 ```json
 // handles.json
 [
-	"handle1",
-	"handle2",
-	"handle3",
-	...
+    "handle1",
+    "handle2",
+    "handle3",
+    // ...
 ]
 ```
 
 ```json
 // names.json
 {
-	"handle1": "name1",
-	"handle2": "name2",
-	"handle3": "name3",
-	...
+    "handle1": "name1",
+    "handle2": "name2",
+    "handle3": "name3",
+    // ...
 }
 ```
 
