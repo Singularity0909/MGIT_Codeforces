@@ -39,3 +39,5 @@ D3 作为一个强大的数据可视化函数库效果拔群，衍生出了许�
 再整合 `names.json` 中的姓名映射将 `data.json` 转化为最终数据文件 `data.csv` 以便 D3 解析。
 
 至此所有有效数据已经到手，最后配置动态图表。改造 Web 页面及调参，略。大功告成。
+
+![](https://cdn.jsdelivr.net/gh/singularity0909/cdn/img/screenshot/codeforces.gif)
