@@ -8,12 +8,6 @@ body {
     margin: 0px;
 }
 
-input {
-    position: absolute;
-    top: 50%;
-    left: 45%;
-}
-
 .domain {
     display: none;
 }
@@ -36,7 +30,6 @@ input {
 }
 
 .dateLabel {
-
     fill: #5C5C5C;
     display: table-cell;
     font-size: 60pt;
@@ -45,14 +38,12 @@ input {
 }
 
 .dateLabelRed {
-
     fill: #A72E2E;
     display: table-cell;
     font-size: 90pt;
     font-weight: bold;
     font-family: "Fira Code", "Source Han Sans CN"
 }
-
 
 .days {
     fill: #5C5C5C;
