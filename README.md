@@ -1,4 +1,4 @@
-# 数据可视化 山威 ACM 校队 Codefoces rating
+# 数据可视化 山威 ACM 校集训队 Codefoces rating
 
 ### [展示页面](https://www.macrohard.cn/codeforces)  [代码仓库](https://github.com/Singularity0909/MGIT_Codeforces)
 

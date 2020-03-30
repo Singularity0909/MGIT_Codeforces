@@ -7,8 +7,10 @@ MAXPERDAY = 10
 
 with open("handles.json", "r") as handlesjson:
     handles = json.load(handlesjson)
+
 with open("data.json") as datajson:
     data = json.load(datajson)
+
 with open("names.json") as namesjson:
     names = json.load(namesjson)
 
